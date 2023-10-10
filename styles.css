@@ -15,7 +15,7 @@ body {
 
 html{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 header{
@@ -31,7 +31,7 @@ header{
 
 header > p {
     width: 650px;
-    margin-bottom: 40px;
+    margin: 40px 0;
     text-align: center;
 }
 
@@ -41,12 +41,12 @@ header > img {
 
 h1,h2,h3,h4,h5,h6 {
     color: hsl(210, 10%, 33%);
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 600 !important;
+    font-size: 30px !important;
 }
  
 h1 {
-    font-size: 40px;
+    font-size: 40px !important;
 }
 
 p {
@@ -63,11 +63,16 @@ h2{
     width: auto;
     margin-top: 100px;
     display: block;
-    font-size: 35px;
+    font-size: 35px !important;
 }
 
 h4 {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
+    font-size: 20px !important;
+}
+
+h3 {
+    font-size: 20px !important;
 }
 
 button{
@@ -108,6 +113,10 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.snippet {
+    margin-top: 100px;
 }
 
 .snippet > P {
@@ -421,7 +430,7 @@ h3 {
     .snippet {
         width: 350px;
         height: auto;
-        margin: 0;
+        margin-top: 100px;
         
     }
 
